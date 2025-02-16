@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="formHeight">48dp</dimen>
+    <dimen name="labelSpacer">7dp</dimen>
+    <dimen name="fieldSpacer">14dp</dimen>
+</resources>

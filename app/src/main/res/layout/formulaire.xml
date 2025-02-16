@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/formulaire_layout"
+    >
+    <include layout="@layout/toolbar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        android:paddingHorizontal="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/labelSpacer"
+            android:text="@string/labelNom" />
+
+        <EditText
+            android:id="@+id/nom"
+            android:saveEnabled="true"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/formHeight"
+            android:background="@drawable/edittext_background"
+            android:hint="@string/formNom"
+            android:textAlignment="center"
+            android:inputType="textPersonName" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fieldSpacer" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/labelSpacer"
+            android:text="@string/labelPrenom" />
+
+        <EditText
+            android:id="@+id/prenom"
+            android:saveEnabled="true"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/formHeight"
+            android:background="@drawable/edittext_background"
+            android:hint="@string/formPrenom"
+            android:textAlignment="center"
+            android:inputType="textPersonName" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fieldSpacer" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/labelSpacer"
+            android:text="@string/labelAge" />
+
+        <EditText
+            android:id="@+id/age"
+            android:saveEnabled="true"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/formHeight"
+            android:background="@drawable/edittext_background"
+            android:hint="@string/formAge"
+            android:textAlignment="center"
+            android:inputType="number" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fieldSpacer" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/labelSpacer"
+            android:text="@string/labelComp" />
+
+        <EditText
+            android:id="@+id/comp"
+            android:saveEnabled="true"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/formHeight"
+            android:background="@drawable/edittext_background"
+            android:hint="@string/formComp"
+            android:textAlignment="center"
+            android:inputType="text" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fieldSpacer" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/labelSpacer"
+            android:text="@string/labelNum" />
+
+        <EditText
+            android:id="@+id/num"
+            android:saveEnabled="true"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/formHeight"
+            android:background="@drawable/edittext_background"
+            android:hint="@string/formNum"
+            android:textAlignment="center"
+            android:inputType="phone" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fieldSpacer" />
+
+        <Button
+            android:id="@+id/buttonValidate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonValider"
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+

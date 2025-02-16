@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name" translatable="false">tp1</string>
+    <string name="hellotxt">Hello world</string>
+
+    <string name="formNom">Entrez votre nom</string>
+    <string name="formPrenom">Entrez votre prénom</string>
+    <string name="formAge">Entrez votre âge</string>
+    <string name="formComp">Domaine de compétence</string>
+    <string name="formNum">Numéro de téléphone</string>
+    <string name="buttonValider">Valider</string>
+
+    <string name="labelNom">Nom</string>
+    <string name="labelPrenom">Prénom</string>
+    <string name="labelAge">Âge</string>
+    <string name="labelComp">Domaine de compétence</string>
+    <string name="labelNum">Numéro de téléphone</string>
+
+    <string name="alertName" translatable="false">Confirmation</string>
+    <string name="alertDesc">Confirmer la saisie ?</string>
+
+    <string name="recapName">Récapitulatif</string>
+</resources>

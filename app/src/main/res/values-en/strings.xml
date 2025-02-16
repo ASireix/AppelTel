@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hellotxt">Hello world</string>
+    <string name="formNom">Enter your lastname</string>
+    <string name="formPrenom">Enter your firstname</string>
+    <string name="formAge">Enter your age</string>
+    <string name="formComp">Domain of expertise</string>
+    <string name="formNum">Phone number</string>
+    <string name="buttonValider">Submit</string>
+
+    <string name="labelNom">Lastname</string>
+    <string name="labelPrenom">Firstname</string>
+    <string name="labelAge">Age</string>
+    <string name="labelComp">Domain of expertise</string>
+    <string name="labelNum">Phone number</string>
+    <string name="alertDesc">Submit form ?</string>
+    <string name="recapName">Summary</string>
+</resources>
