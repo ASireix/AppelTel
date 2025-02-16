@@ -6,6 +6,7 @@ import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Bundle
 import android.widget.ImageButton
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
@@ -16,6 +17,8 @@ class CallActivity : AppCompatActivity() {
         setContentView(R.layout.callview)
 
         val button = findViewById<ImageButton>(R.id.buttonCall)
+        val t = findViewById<TextView>(R.id.textViewPhone)
+        t.text = (intent.extras?.getString("phone"))
         button.setOnClickListener { (intent.extras?.getString("phone")
             ?.let { it1 -> makePhoneCall(it1) }) }
     }
